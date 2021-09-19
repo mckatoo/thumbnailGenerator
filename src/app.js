@@ -1,6 +1,6 @@
 const express = require('express')
 const Ffmpeg = require('fluent-ffmpeg')
-const { rmdir, rmdirSync } = require('fs')
+const { rmdir } = require('fs')
 const path = require('path')
 
 const app = express()
